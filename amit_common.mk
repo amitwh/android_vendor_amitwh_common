@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 	vendor/amitwh/common/system/media/audio/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
 	vendor/amitwh/common/system/media/audio/ui/Lock.ogg:system/media/audio/ui/Lock.ogg \
 	vendor/amitwh/common/system/media/audio/ui/HeiHei.mp3:system/media/audio/ui/HeiHei.mp3 \
-	vendor/amitwh/common/system/media/audio/ui/lock.ogg:system/media/audio/ui/lock.ogg \
 	vendor/amitwh/common/system/media/audio/ui/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg \
 	vendor/amitwh/common/system/media/audio/ui/NFCTransferInitiated.ogg:system/media/audio/ui/NFCTransferInitiated.ogg \
 	vendor/amitwh/common/system/media/audio/ui/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg \
