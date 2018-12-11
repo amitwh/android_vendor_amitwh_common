@@ -14,7 +14,7 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/amitwh/common/system/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
+    vendor/amitwh/common/system/media/audio/ui/Camera_click.ogg:system/media/audio/ui/Camera_click.ogg \
 	vendor/amitwh/common/system/media/audio/ui/VolumeIncremental.ogg:system/media/audio/ui/VolumeIncremental.ogg \
 	vendor/amitwh/common/system/media/audio/ui/MessageSending.ogg:system/media/audio/ui/MessageSending.ogg \
 	vendor/amitwh/common/system/media/audio/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg \
@@ -535,4 +535,24 @@ PRODUCT_COPY_FILES += \
 	vendor/amitwh/common/system/media/audio/ringtones/Crackle.ogg:system/media/audio/ringtones/Crackle.ogg \
 	vendor/amitwh/common/system/media/audio/ringtones/ElectricBell.ogg:system/media/audio/ringtones/ElectricBell.ogg \
 	vendor/amitwh/common/system/media/audio/ringtones/Phobos.ogg:system/media/audio/ringtones/Phobos.ogg \
-	vendor/amitwh/common/system/media/audio/ringtones/Echo.ogg:system/media/audio/ringtones/Echo.ogg 
+	vendor/amitwh/common/system/media/audio/ringtones/Echo.ogg:system/media/audio/ringtones/Echo.ogg \
+	vendor/amitwh/common/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
+	vendor/amitwh/common/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml
+	
+	
+PRODUCT_PACKAGES += \
+	aida64 \
+	AsusFileManager \
+	GoogleCameraLegacy \
+	BaconCamera \
+	SnapSeed \
+	NovaLauncher \
+	SoundCloud \
+	Sophos \
+	WhatsApp \
+	Twitter \
+	LinkedIn \
+	Greenify \
+	DeviceInfo \
+	DiskInfo
+   
