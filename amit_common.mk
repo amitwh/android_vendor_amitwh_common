@@ -537,8 +537,12 @@ PRODUCT_COPY_FILES += \
 	vendor/amitwh/common/system/media/audio/ringtones/Phobos.ogg:system/media/audio/ringtones/Phobos.ogg \
 	vendor/amitwh/common/system/media/audio/ringtones/Echo.ogg:system/media/audio/ringtones/Echo.ogg \
 	vendor/amitwh/common/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
-	vendor/amitwh/common/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml
-	
+	vendor/amitwh/common/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml \
+	vendor/amitwh/common/system/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+	vendor/amitwh/common/system/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
+	vendor/amitwh/common/system/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
+	vendor/amitwh/common/system/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml
+
 	
 PRODUCT_PACKAGES += \
 	aida64 \
